@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  overflow: hidden;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 1.4rem;
+  line-height: 25px;
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.companylogo {
+  width: 10rem;
+  margin-left: 30%;
+}
+
+/* --NavItem -- */
+.header-right {
+  float: right;
+  margin-right: 5%;
+}
+
+.login-btn {
+  background: indianred;
+  color: white !important;
+  border: 2px;
+}
+
+@media screen and (max-width: 400px) {
+
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .companylogo{
+      margin-left: 10%;
+  }
+
+  .header-right {
+    float: none;
+  }
+}
