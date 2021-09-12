@@ -1,20 +1,22 @@
 import React from "react";
 import "./Header.css";
 import Riders from "../../images/Urban Riders.png";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
     <div className="header">
-      <a href="/" className="logo">
+      <NavLink to="/" className="logo">
         <img src={Riders} alt="logo" className="companylogo" />
-      </a>
+      </NavLink>
       <div className="header-right">
-        <a  href="/">
-          Home
-        </a>
-        <a href="/destination">Destination</a>
-        <a href="/blog">Blog</a>
-        <a href="/login" className="login-btn">Login</a>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/destination">Destination</NavLink>
+        <NavLink to="/blog">Blog</NavLink>
+        <NavLink to="/contact">Contact</NavLink>
+        <NavLink to="/login" className="login-btn">
+          Login
+        </NavLink>
       </div>
     </div>
   );
