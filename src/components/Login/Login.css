@@ -3,3 +3,60 @@
   padding: 0;
   box-sizing: border-box;
 }
+.login-container {
+  margin-top: 4rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height:100%;
+  /* text-align: center; */
+}
+
+/* --Form -- */
+.form-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  /* height: 40%; */
+  padding: 3rem;
+}
+.form-container form {
+  /* border: 1px solid black; */
+  padding: 3rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+.form-container form:hover{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.form-container form input {
+  width: 100%;
+  padding: 0.4rem;
+  border: none;
+}
+/* --Other Option for Login -- */
+.other-login {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.other-login button {
+  background-color: #F0F8FF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  border: none;
+  margin-bottom: 1rem;
+}
+.other-login button:hover{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.other-login button img {
+  width: 3rem;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
